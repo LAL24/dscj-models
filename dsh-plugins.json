@@ -1,26 +1,78 @@
 {
   "format": 1,
-  "title": { "en": "DSCJ plugin updates", "zh": "DSCJ 插件更新" },
-  "description": { "en": "Public version metadata for the private DSCJ toolbox. Git repository access is still required.", "zh": "杂货铺的公开版本元数据；插件源码保持私有，安装和更新仍需 Git 仓库访问权限。" },
+  "title": {
+    "en": "DSCJ plugin updates",
+    "zh": "DSCJ 插件更新"
+  },
+  "description": {
+    "en": "Public version metadata for the private DSCJ toolbox. Git repository access is still required.",
+    "zh": "杂货铺的公开版本元数据；插件源码保持私有，安装和更新仍需 Git 仓库访问权限。"
+  },
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
   "plugins": [
     {
       "name": "@local/dscj-toolbox",
-      "title": { "en": "DSCJ toolbox", "zh": "杂货铺" },
-      "description": { "en": "One toolbox for usage, Git, archives, models, export, and notifications.", "zh": "统一管理使用统计、Git、归档、模型、会话导出和任务通知。" },
+      "title": {
+        "en": "DSCJ toolbox",
+        "zh": "杂货铺"
+      },
+      "description": {
+        "en": "One toolbox for usage, Git, archives, models, export, and notifications.",
+        "zh": "统一管理使用统计、Git、归档、模型、会话导出和任务通知。"
+      },
       "author": "LAL24",
-      "repository": { "url": "https://github.com/LAL24/dscj", "directory": "plugins/dscj-toolbox" },
+      "repository": {
+        "url": "https://github.com/LAL24/dscj",
+        "directory": "plugins/dscj-toolbox"
+      },
+      "metadata": {
+        "keywords": [],
+        "labels": [],
+        "sortKeys": {}
+      },
       "versions": [
+        {
+          "version": "1.8.0",
+          "publishTimestamp": 1795088614,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/LAL24/dscj",
+            "commit": "272fbcb2ca926fc53f08e51c69e5e8f7ee6ad67b",
+            "path": "plugins/dscj-toolbox"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.3.0-0"
+          }
+        },
         {
           "version": "1.7.1",
           "publishTimestamp": 1795078204,
-          "engines": { "dsh": ">=0.2.2-rc.3 <0.3.0-0" },
-          "source": { "type": "git", "url": "https://github.com/LAL24/dscj.git", "commit": "8d02b9dbb4befed3a5116b91e61acbdbc1bdac88", "path": "plugins/dscj-toolbox" }
+          "source": {
+            "type": "git",
+            "url": "https://github.com/LAL24/dscj.git",
+            "commit": "8d02b9dbb4befed3a5116b91e61acbdbc1bdac88",
+            "path": "plugins/dscj-toolbox"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.3.0-0"
+          }
         },
         {
           "version": "1.7.0",
           "publishTimestamp": 1795074211,
-          "engines": { "dsh": ">=0.2.2-rc.3 <0.3.0-0" },
-          "source": { "type": "git", "url": "https://github.com/LAL24/dscj.git", "commit": "f51a1b893380491406295f14c4e99468860d2646", "path": "plugins/dscj-toolbox" }
+          "source": {
+            "type": "git",
+            "url": "https://github.com/LAL24/dscj.git",
+            "commit": "f51a1b893380491406295f14c4e99468860d2646",
+            "path": "plugins/dscj-toolbox"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.3.0-0"
+          }
         }
       ]
     }
