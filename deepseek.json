@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "templateId": "deepseek",
+      "modelId": "deepseek-v4-pro",
+      "enabled": true,
+      "contextWindow": 1000000,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": true,
+      "supportsMidConversationSystem": true,
+      "maxOutputTokens": 384000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "low",
+        "high",
+        "max"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"enabled\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel\n      }\n    }"
+    },
+    {
+      "templateId": "deepseek",
+      "modelId": "deepseek-flash",
+      "enabled": true,
+      "contextWindow": 1000000,
+      "supportsText": true,
+      "supportsImage": true,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": true,
+      "supportsMidConversationSystem": true,
+      "maxOutputTokens": 384000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "low",
+        "high",
+        "max"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"enabled\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel\n      }\n    }"
+    }
+  ]
+}

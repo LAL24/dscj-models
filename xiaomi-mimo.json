@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "templateId": "xiaomi-mimo",
+      "modelId": "mimo-v2.5-pro",
+      "enabled": true,
+      "contextWindow": 1000000,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 131072,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "{\n  \"thinking\": {\n    \"type\": reasoningLevel == \"enabled\" ? \"enabled\" : \"disabled\"\n  }\n}"
+    },
+    {
+      "templateId": "xiaomi-mimo",
+      "modelId": "mimo-v2.5",
+      "enabled": true,
+      "contextWindow": 1000000,
+      "supportsText": true,
+      "supportsImage": true,
+      "supportsVideo": true,
+      "supportsAudio": true,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 131072,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "{\n  \"thinking\": {\n    \"type\": reasoningLevel == \"enabled\" ? \"enabled\" : \"disabled\"\n  }\n}"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "files": [
+    "opencode-go.json",
+    "zai.json",
+    "bigmodel.json",
+    "moonshot-kimi.json",
+    "minimax.json",
+    "deepseek.json",
+    "alibaba.json",
+    "xiaomi-mimo.json",
+    "openai.json",
+    "anthropic.json",
+    "xai.json",
+    "openrouter.json",
+    "opencode-zen.json",
+    "accounts.json",
+    "muse-spark.json",
+    "commandcode.json",
+    "cline-pass.json",
+    "ollama-cloud.json"
+  ]
+}

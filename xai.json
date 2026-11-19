@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "templateId": "xai",
+      "modelId": "grok-4.6",
+      "enabled": true,
+      "contextWindow": 500000,
+      "supportsText": true,
+      "supportsImage": true,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": true,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 128000,
+      "maxOutputTokensMap": "{'max_output_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "reasoningLevelMap": "{\n  \"reasoning\": {\n    \"effort\": reasoningLevel\n  }\n}"
+    },
+    {
+      "templateId": "xai",
+      "modelId": "grok-build-0.1",
+      "enabled": true,
+      "contextWindow": 256000,
+      "supportsText": true,
+      "supportsImage": true,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": true,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 128000,
+      "maxOutputTokensMap": "{'max_output_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "{\n  \"reasoning\": {\n    \"effort\": reasoningLevel == \"disabled\" ? \"none\" : reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n  }\n}"
+    },
+    {
+      "templateId": "xai",
+      "modelId": "grok-4.3",
+      "enabled": false,
+      "contextWindow": 1000000,
+      "supportsText": true,
+      "supportsImage": true,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": true,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 128000,
+      "maxOutputTokensMap": "{'max_output_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "{\n  \"reasoning\": {\n    \"effort\": reasoningLevel == \"disabled\" ? \"none\" : reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n  }\n}"
+    },
+    {
+      "templateId": "xai",
+      "modelId": "grok-4.7",
+      "enabled": true,
+      "contextWindow": 500000,
+      "supportsText": true,
+      "supportsImage": true,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": true,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 128000,
+      "maxOutputTokensMap": "{'max_output_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "reasoningLevelMap": "{\n  \"reasoning\": {\n    \"effort\": reasoningLevel\n  }\n}"
+    }
+  ]
+}

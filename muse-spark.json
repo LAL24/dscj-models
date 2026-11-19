@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "modelMatch": ".*muse-spark-1\\.[123].*",
+      "contextWindow": 1048576,
+      "maxOutputTokens": 131072
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "templateId": "minimax",
+      "modelId": "MiniMax-M2.7",
+      "enabled": true,
+      "contextWindow": 204800,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 32000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"adaptive\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n      }\n    }"
+    },
+    {
+      "templateId": "minimax",
+      "modelId": "MiniMax-M2.7-highspeed",
+      "enabled": true,
+      "contextWindow": 204800,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 32000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"adaptive\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n      }\n    }"
+    },
+    {
+      "templateId": "minimax",
+      "modelId": "MiniMax-M3",
+      "enabled": true,
+      "contextWindow": 1000000,
+      "supportsText": true,
+      "supportsImage": true,
+      "supportsVideo": true,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 32000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"adaptive\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n      }\n    }"
+    },
+    {
+      "templateId": "minimax",
+      "modelId": "MiniMax-M2.5",
+      "enabled": false,
+      "contextWindow": 204800,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 32000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"adaptive\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n      }\n    }"
+    },
+    {
+      "templateId": "minimax",
+      "modelId": "MiniMax-M2.5-highspeed",
+      "enabled": false,
+      "contextWindow": 204800,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 32000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"adaptive\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n      }\n    }"
+    },
+    {
+      "templateId": "minimax",
+      "modelId": "MiniMax-M2.1",
+      "enabled": false,
+      "contextWindow": 204800,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 32000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"adaptive\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n      }\n    }"
+    },
+    {
+      "templateId": "minimax",
+      "modelId": "MiniMax-M2.1-highspeed",
+      "enabled": false,
+      "contextWindow": 204800,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 32000,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"adaptive\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n      }\n    }"
+    },
+    {
+      "templateId": "minimax",
+      "modelId": "MiniMax-M2",
+      "enabled": false,
+      "contextWindow": 204800,
+      "supportsText": true,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "supportsPdf": false,
+      "supportsToolCall": true,
+      "supportsJsonSchemaOutput": false,
+      "supportsNativeWebSearch": false,
+      "supportsMidConversationSystem": false,
+      "maxOutputTokens": 131072,
+      "maxOutputTokensMap": "{'max_tokens': maxOutputTokens}",
+      "reasoningLevels": [
+        "disabled",
+        "enabled"
+      ],
+      "reasoningLevelMap": "reasoningLevel == \"disabled\"\n  ? {\n      \"thinking\": {\n        \"type\": \"disabled\"\n      }\n    }\n  : {\n      \"thinking\": {\n        \"type\": \"adaptive\"\n      },\n      \"output_config\": {\n        \"effort\": reasoningLevel == \"enabled\" ? \"high\" : reasoningLevel\n      }\n    }"
+    }
+  ]
+}
