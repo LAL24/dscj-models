@@ -21,8 +21,8 @@
         "zh": "杂货铺"
       },
       "description": {
-        "en": "One toolbox for usage, Git, archives, models, export, and notifications.",
-        "zh": "统一管理使用统计、Git、归档、模型、会话导出和任务通知。"
+        "en": "One toolbox for usage, Git, archives, models, export, notifications, and theme/wallpaper.",
+        "zh": "统一管理使用统计、Git、归档、模型、会话导出、任务通知和主题壁纸。"
       },
       "author": "LAL24",
       "repository": {
@@ -35,6 +35,19 @@
         "sortKeys": {}
       },
       "versions": [
+        {
+          "version": "1.10.0",
+          "publishTimestamp": 1795138298,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/LAL24/dscj",
+            "commit": "970eca57760301233cbeb98a5368253866920aa8",
+            "path": "plugins/dscj-toolbox"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.3.0-0"
+          }
+        },
         {
           "version": "1.9.0",
           "publishTimestamp": 1795101614,
