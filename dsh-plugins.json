@@ -36,6 +36,19 @@
       },
       "versions": [
         {
+          "version": "1.14.1",
+          "publishTimestamp": 1795793064,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/LAL24/dscj",
+            "commit": "8875ca61d84ce2daaa60612ff400f51b5a1c1f0d",
+            "path": "plugins/dscj-toolbox"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.3.0-0"
+          }
+        },
+        {
           "version": "1.14.0",
           "publishTimestamp": 1795792537,
           "source": {
